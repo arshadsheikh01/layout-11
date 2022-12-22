@@ -1,0 +1,137 @@
+body,h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bg-white{
+    margin-top: 20px;
+}
+.bg-white ul{
+    float: right;
+}
+li{
+    display: inline;
+}
+li:first-child a{
+    text-decoration: none;
+    color: #69be28;
+    font-size: 18px;
+    margin-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 30px;
+    color: #006a4d;
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-red{
+    margin-top: 50px;
+}
+.bg-red h1{
+    font-size: 106px;
+    color: #000000;
+}
+.bg-red h2{
+    font-size: 28px;
+    color: #000000;
+}
+.bg-green{
+    width: 625px;
+    float: left;
+}
+.bg-green h1{
+    font-size: 36px;
+    color: #006a4d;
+    margin-top: 100px;
+}
+.bg-green p{
+    font-size: 16px;
+    color: #000000;
+    margin: 10px 0 20px 0;
+}
+.bg-green h2{
+    font-size: 20px;
+    color: #006a4d;
+}
+.section-header{
+    float: right;
+    width: 470px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.header-data{
+    background: #bababa;
+    float: left;
+    padding-bottom: 80px;
+}
+.header-data img{
+    margin: 55px 90px 10px 30px;
+}
+.header-data h1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 50px;
+    color: #000000;
+}
+.header-data p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 50px;
+}
+.header-data h2{
+    font-size: 14px;
+    width: 130px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 50px;
+}
+.header-data h3{
+    font-size: 14px;
+    width: 90px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 80px;
+}
+.header{
+    text-align: center;
+    background: #bababa;
+    color: #0e14ff;
+    font-size: 14px;
+    padding: 0 50px 70px 0;
+}
+.bg-black{
+    background: #000;
+}
+.footer{
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    margin: 50px 0 70px 30px;
+}
+.menu-wrapper{
+    float: right;
+    color: #ffffff;
+    margin: 50px 40px 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.fa-brands{
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    color: #ffffff;
+}
